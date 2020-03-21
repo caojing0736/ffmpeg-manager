@@ -1,0 +1,14 @@
+server:
+  port: 9040
+  
+properties:
+  rtmpPullUrl: rtmp://192.168.1.120:1935/live/
+  capturePicturePath: /usr/local/src/app_server/pictures/
+  imageWidth: 512
+  imageHeight: 288
+      
+
+
+log:
+  path: /logs/ffmpeg-manager
+  appname: ffmpeg-manager
